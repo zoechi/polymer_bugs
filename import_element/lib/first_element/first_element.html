@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<link rel='import' href='../second_element/second_element.html'>
+
+<polymer-element name='first-element'>
+  <template>
+    <style>
+      @host {
+        * {
+          display: block;
+        }
+      }
+      :host {
+        display: block;
+      }
+    </style>
+    <span>first-element</span>
+    <second-element id='second'></second-element>
+    <content></content>
+  </template>
+  <script type='application/dart' src='first_element.dart'></script>
+</polymer-element>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>import polymer element</title>
+
+    <!-- import elements -->
+    <link rel='import' href='src/app_element/app_element.html'>
+
+    <script type='application/dart'>
+      export 'package:polymer/init.dart';
+    </script>
+    <script src='packages/browser/dart.js'></script>
+
+  </head>
+
+   <body>
+
+    <app-element>
+      <span>child</span>
+    </app-element>
+
+   </body>
+</html>
