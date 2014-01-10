@@ -1,11 +1,12 @@
-name: import_element
+name: import_element_client
 author: Günter Zöchbauer <guenter@gzoechbauer.com>
 description: "solved: Import a polymer element in markup and code \nhttps://code.google.com/p/dart/issues/detail?id=15953"
 dependencies:
   browser: any
   polymer: any
-
+  import_element:
+    path: ../import_element
 transformers:
 - polymer:
     entry_points:
-
+    - web/index.html
