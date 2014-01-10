@@ -1,6 +1,6 @@
 name: import_element
 author: Günter Zöchbauer <guenter@gzoechbauer.com>
-description: "Import a polymer element in markup and code \nhttps://code.google.com/p/dart/issues/detail?id=15953"
+description: "solved: Import a polymer element in markup and code \nhttps://code.google.com/p/dart/issues/detail?id=15953"
 dependencies:
   browser: any
   polymer: any
