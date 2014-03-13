@@ -15,7 +15,7 @@ class AppElement extends PolymerElement {
     var elem = $['first'];
     var first;
     try {
-      var first = elem as FirstElement;
+      first = elem as FirstElement;
     } catch(e) {
       print('catch: ${e}');
     } finally {

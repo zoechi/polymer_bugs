@@ -4,8 +4,9 @@ description: "solved: Import a polymer element in markup and code \nhttps://code
 dependencies:
   browser: any
   polymer: any
-
+  #analyzer:  ">=0.12.0-dev.3"
 transformers:
 - polymer:
-    entry_points:
+    entry_points: []
+
 

@@ -6,7 +6,7 @@ dependencies:
   polymer: any
   import_element:
     path: ../import_element
+  #analyzer:  ">=0.12.2"
 transformers:
 - polymer:
-    entry_points:
-    - web/index.html
+    entry_points: [web/index.html]

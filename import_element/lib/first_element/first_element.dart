@@ -1,7 +1,7 @@
 library first_element;
 
 import 'package:polymer/polymer.dart';
-import '../second_element/second_element.dart';
+import 'package:import_element/second_element/second_element.dart';
 
 @CustomTag('first-element')
 class FirstElement extends PolymerElement {
